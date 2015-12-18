@@ -2,9 +2,9 @@
 
 <html>
   <h2>THE TEAM</h2>
-  <img src="http://i.imgur.com/rRNECVo.jpg" />
+  <img src="http://i.imgur.com/rRNECVo.jpg" height="400px" width="300px"/>
   <p>Oluwadamilola Olorode</p>
-  <img src="http://i.imgur.com/5HjhpVj.jpg" />
+  <img src="http://i.imgur.com/5HjhpVj.jpg" height="400px" width="300px"/>
   <p>Suhas Amireddy</p>
   <br/>
   <br/>
