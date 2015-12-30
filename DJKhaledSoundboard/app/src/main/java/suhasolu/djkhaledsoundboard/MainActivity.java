@@ -1,5 +1,6 @@
 package suhasolu.djkhaledsoundboard;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    public void sendAnotherOne(View view){
+        MediaPlayer weTheBestMusic = MediaPlayer.create(this,R.raw.anotherone);
+        if(weTheBestMusic.isPlaying()||weTheBestMusic.isLooping()){weTheBestMusic.stop();weTheBestMusic.reset();}
+        weTheBestMusic.start();
+       // weTheBestMusic.reset();
+    }
+    public void sendLion(View view){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.lion);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+    public void sendYouSmart(View view){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.usmart);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
