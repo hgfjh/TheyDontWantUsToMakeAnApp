@@ -47,6 +47,49 @@ public class MainActivity extends AppCompatActivity {
             mp.reset();
         }mp.start();
     }
+    public void sendYouLoyal (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.uloyal);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+    public void sendYouAGenius (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.uagenius);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+
+    public void sendIAppreciateYou (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.iappreciateu);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+    public void sendIChangedALot (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.ichangedalot);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+    public void sendSomePeopleCantHandleSuccess (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.somepeoplecanthandlesuccess);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
+    public void sendWeTheBest (View view) {
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.wethebest);
+        if(mp.isPlaying()||mp.isLooping()){
+            mp.stop();
+            mp.reset();
+        }mp.start();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
