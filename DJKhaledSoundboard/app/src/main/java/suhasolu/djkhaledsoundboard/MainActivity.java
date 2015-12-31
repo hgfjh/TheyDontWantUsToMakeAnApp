@@ -14,6 +14,12 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer Vibes[]=new MediaPlayer[5];
     MediaPlayer Vibes2[]= new MediaPlayer[5];
     MediaPlayer Vibes3[]= new MediaPlayer[5];
+    MediaPlayer Vibes4[]= new MediaPlayer[5];
+    MediaPlayer Vibes5[]= new MediaPlayer[5];
+    MediaPlayer Vibes6[]= new MediaPlayer[5];
+    MediaPlayer Vibes7[]= new MediaPlayer[5];
+    MediaPlayer Vibes8[]= new MediaPlayer[5];
+    MediaPlayer Vibes9[]= new MediaPlayer[5];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -34,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
             Vibes[i]= MediaPlayer.create(this,R.raw.anotherone);
             Vibes2[i]= MediaPlayer.create(this,R.raw.lion);
             Vibes3[i]=MediaPlayer.create(this,R.raw.usmart);
+            Vibes4[i]=MediaPlayer.create(this,R.raw.uloyal);
+            Vibes5[i]=MediaPlayer.create(this,R.raw.uagenius);
+            Vibes6[i]=MediaPlayer.create(this,R.raw.iappreciateu);
+            Vibes7[i]=MediaPlayer.create(this,R.raw.ichangedalot);
+            Vibes8[i]=MediaPlayer.create(this,R.raw.somepeoplecanthandlesuccess);
+            Vibes9[i]=MediaPlayer.create(this,R.raw.wethebest);
+
         }
     }
     public void sendAnotherOne(View view){
@@ -45,63 +58,69 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void sendLion(View view){
-        for(int i=0;i<Vibes.length;i++){
-            if(!Vibes[i].isPlaying()){
+        for(int i=0;i<Vibes2.length;i++){
+            if(!Vibes2[i].isPlaying()){
                 Vibes2[i].start();
                 return;
             }
         }
     }
     public void sendYouSmart(View view){
-        for(int i=0;i<Vibes.length;i++){
-            if(!Vibes[i].isPlaying()){
+        for(int i=0;i<Vibes3.length;i++){
+            if(!Vibes3[i].isPlaying()){
                 Vibes3[i].start();
                 return;
             }
         }
     }
     public void sendYouLoyal (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.uloyal);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes4.length;i++){
+            if(!Vibes4[i].isPlaying()){
+                Vibes4[i].start();
+                return;
+            }
+        }
     }
     public void sendYouAGenius (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.uagenius);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes5.length;i++){
+            if(!Vibes5[i].isPlaying()){
+                Vibes5[i].start();
+                return;
+            }
+        }
     }
 
     public void sendIAppreciateYou (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.iappreciateu);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes6.length;i++){
+            if(!Vibes6[i].isPlaying()){
+                Vibes6[i].start();
+                return;
+            }
+        }
     }
     public void sendIChangedALot (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.ichangedalot);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes7.length;i++){
+            if(!Vibes7[i].isPlaying()){
+                Vibes7[i].start();
+                return;
+            }
+        }
     }
     public void sendSomePeopleCantHandleSuccess (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.somepeoplecanthandlesuccess);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes8.length;i++){
+            if(!Vibes8[i].isPlaying()){
+                Vibes8[i].start();
+                return;
+            }
+        }
     }
     public void sendWeTheBest (View view) {
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.wethebest);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes9.length;i++){
+            if(!Vibes9[i].isPlaying()){
+                Vibes9[i].start();
+                return;
+            }
+        }
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
