@@ -11,8 +11,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
+    MediaPlayer Vibes[]=new MediaPlayer[5];
+    MediaPlayer Vibes2[]= new MediaPlayer[5];
+    MediaPlayer Vibes3[]= new MediaPlayer[5];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -26,26 +30,35 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        for(int i=0; i<5;i++){
+            Vibes[i]= MediaPlayer.create(this,R.raw.anotherone);
+            Vibes2[i]= MediaPlayer.create(this,R.raw.lion);
+            Vibes3[i]=MediaPlayer.create(this,R.raw.usmart);
+        }
     }
     public void sendAnotherOne(View view){
-        MediaPlayer weTheBestMusic = MediaPlayer.create(this,R.raw.anotherone);
-        if(weTheBestMusic.isPlaying()||weTheBestMusic.isLooping()){weTheBestMusic.stop();weTheBestMusic.reset();}
-        weTheBestMusic.start();
-       // weTheBestMusic.reset();
+        for(int i=0;i<Vibes.length;i++){
+            if(!Vibes[i].isPlaying()){
+                Vibes[i].start();
+                return;
+            }
+        }
     }
     public void sendLion(View view){
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.lion);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes.length;i++){
+            if(!Vibes[i].isPlaying()){
+                Vibes2[i].start();
+                return;
+            }
+        }
     }
     public void sendYouSmart(View view){
-        MediaPlayer mp = MediaPlayer.create(this,R.raw.usmart);
-        if(mp.isPlaying()||mp.isLooping()){
-            mp.stop();
-            mp.reset();
-        }mp.start();
+        for(int i=0;i<Vibes.length;i++){
+            if(!Vibes[i].isPlaying()){
+                Vibes3[i].start();
+                return;
+            }
+        }
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
