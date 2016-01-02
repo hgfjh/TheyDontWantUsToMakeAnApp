@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer Vibes7[]= new MediaPlayer[5];
     MediaPlayer Vibes8[]= new MediaPlayer[5];
     MediaPlayer Vibes9[]= new MediaPlayer[5];
+    MediaPlayer Vibes10[]= new MediaPlayer[5];
+    MediaPlayer Vibes11[]= new MediaPlayer[5];
+    MediaPlayer Vibes12[]= new MediaPlayer[5];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -46,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
             Vibes7[i]=MediaPlayer.create(this,R.raw.ichangedalot);
             Vibes8[i]=MediaPlayer.create(this,R.raw.somepeoplecanthandlesuccess);
             Vibes9[i]=MediaPlayer.create(this,R.raw.wethebest);
+            Vibes10[i]=MediaPlayer.create(this,R.raw.justknow);
+            Vibes11[i]=MediaPlayer.create(this,R.raw.knowthat);
+            Vibes12[i]=MediaPlayer.create(this,R.raw.donteverplayyourself);
 
         }
     }
@@ -118,6 +124,30 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<Vibes9.length;i++){
             if(!Vibes9[i].isPlaying()){
                 Vibes9[i].start();
+                return;
+            }
+        }
+    }
+    public void sendJustKnow (View view) {
+        for(int i=0;i<Vibes10.length;i++){
+            if(!Vibes10[i].isPlaying()){
+                Vibes10[i].start();
+                return;
+            }
+        }
+    }
+    public void sendKnowThat (View view) {
+        for(int i=0;i<Vibes11.length;i++){
+            if(!Vibes11[i].isPlaying()){
+                Vibes11[i].start();
+                return;
+            }
+        }
+    }
+    public void sendDontEverPlayYourself (View view) {
+        for(int i=0;i<Vibes12.length;i++){
+            if(!Vibes12[i].isPlaying()){
+                Vibes12[i].start();
                 return;
             }
         }
