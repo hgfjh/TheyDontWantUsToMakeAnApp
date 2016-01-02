@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         }
-    }
+    } 
     public void sendDontEverPlayYourself (View view) {
         for(int i=0;i<Vibes12.length;i++){
             if(!Vibes12[i].isPlaying()){
