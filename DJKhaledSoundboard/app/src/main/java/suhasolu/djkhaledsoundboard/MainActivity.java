@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer Vibes10[]= new MediaPlayer[5];
     MediaPlayer Vibes11[]= new MediaPlayer[5];
     MediaPlayer Vibes12[]= new MediaPlayer[5];
+    MediaPlayer Vibes13[]= new MediaPlayer[5];
+    MediaPlayer Vibes14[]= new MediaPlayer[5];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -52,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
             Vibes10[i]=MediaPlayer.create(this,R.raw.justknow);
             Vibes11[i]=MediaPlayer.create(this,R.raw.knowthat);
             Vibes12[i]=MediaPlayer.create(this,R.raw.donteverplayyourself);
+            Vibes13[i]=MediaPlayer.create(this,R.raw.nevergiveup);
+            Vibes14[i]=MediaPlayer.create(this,R.raw.buyyourmamaahouse);
 
         }
     }
@@ -148,6 +152,22 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<Vibes12.length;i++){
             if(!Vibes12[i].isPlaying()){
                 Vibes12[i].start();
+                return;
+            }
+        }
+    }
+    public void sendNeverGiveUp (View view) {
+        for(int i=0;i<Vibes13.length;i++){
+            if(!Vibes13[i].isPlaying()){
+                Vibes13[i].start();
+                return;
+            }
+        }
+    }
+    public void sendBuyYourMamaAHouse (View view) {
+        for(int i=0;i<Vibes14.length;i++){
+            if(!Vibes14[i].isPlaying()){
+                Vibes14[i].start();
                 return;
             }
         }
