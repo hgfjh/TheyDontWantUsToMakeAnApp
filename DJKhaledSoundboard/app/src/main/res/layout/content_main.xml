@@ -13,7 +13,7 @@
         tools:context="suhasolu.djkhaledsoundboard.MainActivity"
         tools:showIn="@layout/activity_main"
         android:columnCount="6"
-        android:rowCount="15">
+        android:rowCount="14">
     <Button android:id="@+id/another_one"
         android:layout_width="100dp"
         android:layout_height="100dp"
