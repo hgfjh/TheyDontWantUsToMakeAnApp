@@ -14,6 +14,18 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer Vibes[]=new MediaPlayer[5];
     MediaPlayer Vibes2[]= new MediaPlayer[5];
     MediaPlayer Vibes3[]= new MediaPlayer[5];
+    MediaPlayer Vibes4[]=new MediaPlayer[5];
+    MediaPlayer Vibes5[]= new MediaPlayer[5];
+    MediaPlayer Vibes6[]= new MediaPlayer[5];
+    MediaPlayer Vibes7[]=new MediaPlayer[5];
+    MediaPlayer Vibes8[]= new MediaPlayer[5];
+    MediaPlayer Vibes9[]= new MediaPlayer[5];
+    MediaPlayer Vibes10[]=new MediaPlayer[5];
+    MediaPlayer Vibes11[]= new MediaPlayer[5];
+    MediaPlayer Vibes12[]= new MediaPlayer[5];
+    MediaPlayer Vibes13[]=new MediaPlayer[5];
+    MediaPlayer Vibes14[]= new MediaPlayer[5];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -34,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
             Vibes[i]= MediaPlayer.create(this,R.raw.anotherone);
             Vibes2[i]= MediaPlayer.create(this,R.raw.lion);
             Vibes3[i]=MediaPlayer.create(this,R.raw.usmart);
+            Vibes4[i]=MediaPlayer.create(this,R.raw.uloyal);
+            Vibes5[i]=MediaPlayer.create(this,R.raw.uagenius);
+            Vibes6[i]=MediaPlayer.create(this,R.raw.iappreciateu);
+            Vibes7[i]=MediaPlayer.create(this,R.raw.ichangedalot);
+            Vibes8[i]=MediaPlayer.create(this,R.raw.somepeoplecanthandlesuccess);
+            Vibes9[i]=MediaPlayer.create(this,R.raw.wethebest);
+            Vibes10[i]=MediaPlayer.create(this,R.raw.justknow);
+            Vibes11[i]=MediaPlayer.create(this,R.raw.knowthat);
+            Vibes12[i]=MediaPlayer.create(this,R.raw.donteverplayyourself);
+            Vibes13[i]=MediaPlayer.create(this,R.raw.nevergiveup);
+            Vibes14[i]=MediaPlayer.create(this,R.raw.buyyourmamaahouse);
         }
     }
     public void sendAnotherOne(View view){
@@ -46,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sendLion(View view){
         for(int i=0;i<Vibes.length;i++){
-            if(!Vibes[i].isPlaying()){
+            if(!Vibes2[i].isPlaying()){
                 Vibes2[i].start();
                 return;
             }
@@ -54,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sendYouSmart(View view){
         for(int i=0;i<Vibes.length;i++){
-            if(!Vibes[i].isPlaying()){
+            if(!Vibes3[i].isPlaying()){
                 Vibes3[i].start();
                 return;
             }
