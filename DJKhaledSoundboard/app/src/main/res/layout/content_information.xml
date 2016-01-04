@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:id="@+id/informationlayout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,6 +12,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="suhasolu.djkhaledsoundboard.InformationActivity"
-    tools:showIn="@layout/activity_information">
+    tools:showIn="@layout/activity_information"
+    android:weightSum="1">
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/TextBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="More sounds and features coming soon!"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make sure to check out our GitHub at https://github.com/hgfjh/TheyDontWantUsToMakeAnApp! We are constantly working hard to improve this app and make it a true inspiration."
+        android:id="@+id/textView"
+        android:layout_weight="0.27"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="0.19"
+        android:textSize="13dp"
+        android:text="No copyright is claimed in [content copied] and to the extent that material may appear to be infringed, we assert that such alleged infringement is permissible under fair use principles in U.S. copyright laws. If you believe material has been used in an unauthorized manner or if you have any other questions, concerns or comments, please contact us at theydontwantustomakeanapp@gmail.com."
+        />
+
+</LinearLayout>

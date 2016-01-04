@@ -1,23 +1,24 @@
 package suhasolu.djkhaledsoundboard;
 
-import android.content.DialogInterface;
-import android.media.MediaPlayer;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.view.GestureDetectorCompat;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.content.Intent;
-import android.widget.Filter;
-import android.widget.ImageView;
+
+        import android.content.DialogInterface;
+        import android.media.MediaPlayer;
+        import android.os.Bundle;
+        import android.support.design.widget.FloatingActionButton;
+        import android.support.design.widget.Snackbar;
+        import android.support.v4.view.GestureDetectorCompat;
+        import android.support.v4.view.MotionEventCompat;
+        import android.support.v4.view.ViewPager;
+        import android.support.v7.app.AppCompatActivity;
+        import android.support.v7.widget.Toolbar;
+        import android.view.GestureDetector;
+        import android.view.MotionEvent;
+        import android.view.View;
+        import android.view.Menu;
+        import android.view.MenuItem;
+        import android.content.Intent;
+        import android.widget.Filter;
+        import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private final MediaPlayer Vibes[]=new MediaPlayer[5];
@@ -34,12 +35,21 @@ public class MainActivity extends AppCompatActivity {
     private final MediaPlayer Vibes12[]= new MediaPlayer[5];
     private final MediaPlayer Vibes13[]=new MediaPlayer[5];
     private final MediaPlayer Vibes14[]= new MediaPlayer[5];
+
     private GestureDetectorCompat gestureDetector;
     private View.OnTouchListener gestureListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //System.out.println("Creating Gesture Detector");
+        View iview = findViewById(R.id.gridview);
+        iview.setOnTouchListener(new OnSwipeTouchListener(this){
+            public void onSwipeLeft(){switchActivity();}
+            // public void onSwipeRight(){switchActivity();}
+        });
+
         for(int i=0; i<5;i++){
             Vibes[i]= MediaPlayer.create(this,R.raw.anotherone);
             Vibes2[i]= MediaPlayer.create(this,R.raw.lion);
@@ -56,14 +66,6 @@ public class MainActivity extends AppCompatActivity {
             Vibes13[i]=MediaPlayer.create(this,R.raw.nevergiveup);
             Vibes14[i]=MediaPlayer.create(this,R.raw.buyyourmamaahouse);
         }
-        //System.out.println("Creating Gesture Detector");
-        View iview = findViewById(R.id.gridview);
-        iview.setOnTouchListener(new OnSwipeTouchListener(this){
-            public void onSwipeLeft(){switchActivity();}
-           // public void onSwipeRight(){switchActivity();}
-        });
-
-
 
     }
     @Override

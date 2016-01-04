@@ -145,7 +145,7 @@
     <Button android:id="@+id/buyyomamaahouse"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:text="Handle Success"
+        android:text="Houses"
         android:onClick="sendBuyYourMamaAHouse"
         android:background="@drawable/gold_button"
         android:layout_row="15"
