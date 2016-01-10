@@ -16,20 +16,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+var soundPlayer = AVAudioPlayer()
 
     @IBAction func AnotherOne(sender: AnyObject) {
-        var anotherOnePlayer = AVAudioPlayer()
-        if let AnotherOneAudioUrlPath=AnotherOneAudioUrlPath{
-            let AnotherOneUrl = NSURL(fileURLWithPath: AnotherOneAudioUrlPath)
+        
+        let path = NSBundle.mainBundle().pathForResource("AnotherOne.mp3", ofType:nil)!
+        let url = NSURL(fileURLWithPath: path)
+        //let AnotherOneUrl = NSURL(fileURLWithPath: "/Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3")
             do{
-            try anotherOnePlayer = AVAudioPlayer(contentsOfURL: AnotherOneUrl)
-                anotherOnePlayer.play();
+            try soundPlayer = AVAudioPlayer(contentsOfURL: url)
+                soundPlayer.play();
+                NSLog("Button working");
             }catch{
                 //do nothing
             }
         }
     }
-
-}
 

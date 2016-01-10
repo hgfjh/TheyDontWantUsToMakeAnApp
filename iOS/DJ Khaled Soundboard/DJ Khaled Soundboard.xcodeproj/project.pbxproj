@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F2442C1C421EAA00C7C354 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F2442B1C421EAA00C7C354 /* AVFoundation.framework */; };
 		733FBFBA1C4174DB00FBFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */; };
 		733FBFBC1C4174DB00FBFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */; };
 		733FBFBF1C4174DB00FBFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733FBFBD1C4174DB00FBFEE9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F2442B1C421EAA00C7C354 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		733FBFB61C4174DB00FBFEE9 /* DJ Khaled Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Khaled Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		733FBFCA1C4174DC00FBFEE9 /* DJ Khaled SoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ Khaled SoundboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733FBFCE1C4174DC00FBFEE9 /* DJ_Khaled_SoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_Khaled_SoundboardUITests.swift; sourceTree = "<group>"; };
 		733FBFD01C4174DC00FBFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		733FBFD91C41799800FBFEE9 /* AnotherOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnotherOne.mp3; path = "../../../../Downloads/TheyDontWantUsToMakeAnApp-master/Audio Resources/AnotherOne.mp3"; sourceTree = "<group>"; };
+		733FBFD91C41799800FBFEE9 /* AnotherOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AnotherOne.mp3; path = "../../../../../../../../../Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F2442C1C421EAA00C7C354 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		733FBFAD1C4174DB00FBFEE9 = {
 			isa = PBXGroup;
 			children = (
+				01F2442B1C421EAA00C7C354 /* AVFoundation.framework */,
 				733FBFB81C4174DB00FBFEE9 /* DJ Khaled Soundboard */,
 				733FBFCD1C4174DC00FBFEE9 /* DJ Khaled SoundboardUITests */,
 				733FBFB71C4174DB00FBFEE9 /* Products */,
@@ -149,7 +153,7 @@
 				TargetAttributes = {
 					733FBFB51C4174DB00FBFEE9 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = P6SHLR6C36;
+						DevelopmentTeam = FUW4ANM42X;
 					};
 					733FBFC91C4174DC00FBFEE9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -332,11 +336,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DJ Khaled Soundboard/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SuhasOlu.DJ-Khaled-Soundboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "panyk.DJ-Khaled-Soundboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -345,11 +351,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DJ Khaled Soundboard/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SuhasOlu.DJ-Khaled-Soundboard";
+				PRODUCT_BUNDLE_IDENTIFIER = "panyk.DJ-Khaled-Soundboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -396,6 +404,7 @@
 				733FBFD51C4174DC00FBFEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		733FBFD61C4174DC00FBFEE9 /* Build configuration list for PBXNativeTarget "DJ Khaled SoundboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +413,7 @@
 				733FBFD81C4174DC00FBFEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
