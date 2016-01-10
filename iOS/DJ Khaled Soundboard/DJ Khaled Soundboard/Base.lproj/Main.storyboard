@@ -18,19 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kfj-TK-1zM">
-                                <rect key="frame" x="93" y="83" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="73" y="83" width="87" height="30"/>
+                                <state key="normal" title="Another One"/>
                                 <connections>
                                     <action selector="AnotherOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vlu-6z-eru"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44B-PZ-Ula">
-                                <rect key="frame" x="277" y="83" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="265" y="83" width="71" height="30"/>
+                                <state key="normal" title="You Smart"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wr-bf-YWl">
-                                <rect key="frame" x="449" y="83" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="440" y="83" width="65" height="30"/>
+                                <state key="normal" title="You Loyal"/>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Another One" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qs6-62-8ZP">
                                 <rect key="frame" x="70" y="121" width="92" height="37"/>
