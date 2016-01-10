@@ -35,6 +35,20 @@ public class MainActivity extends AppCompatActivity {
     private final MediaPlayer Vibes12[]= new MediaPlayer[5];
     private final MediaPlayer Vibes13[]=new MediaPlayer[5];
     private final MediaPlayer Vibes14[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes15[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes16[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes17[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes18[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes19[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes20[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes21[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes22[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes23[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes24[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes25[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes26[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes27[]= new MediaPlayer[5];
+    private final MediaPlayer Vibes28[]= new MediaPlayer[5];
 
     private GestureDetectorCompat gestureDetector;
     private View.OnTouchListener gestureListener;
@@ -65,6 +79,20 @@ public class MainActivity extends AppCompatActivity {
             Vibes12[i]=MediaPlayer.create(this,R.raw.donteverplayyourself);
             Vibes13[i]=MediaPlayer.create(this,R.raw.nevergiveup);
             Vibes14[i]=MediaPlayer.create(this,R.raw.buyyourmamaahouse);
+            Vibes15[i]=MediaPlayer.create(this,R.raw.anothercrab);
+            Vibes16[i]=MediaPlayer.create(this,R.raw.bamboo);
+            Vibes17[i]=MediaPlayer.create(this,R.raw.bowdown);
+            Vibes18[i]=MediaPlayer.create(this,R.raw.clothtalk);
+            Vibes19[i]=MediaPlayer.create(this,R.raw.eggwhites);
+            Vibes20[i]=MediaPlayer.create(this,R.raw.howsbusiness);
+            Vibes21[i]=MediaPlayer.create(this,R.raw.justopenit);
+            Vibes22[i]=MediaPlayer.create(this,R.raw.learningiscool);
+            Vibes23[i]=MediaPlayer.create(this,R.raw.lookinmyeyes);
+            Vibes24[i]=MediaPlayer.create(this,R.raw.nolunch);
+            Vibes25[i]=MediaPlayer.create(this,R.raw.pathway);
+            Vibes26[i]=MediaPlayer.create(this,R.raw.pillows);
+            Vibes27[i]=MediaPlayer.create(this,R.raw.roadblocks);
+            Vibes28[i]=MediaPlayer.create(this,R.raw.uplayedyourself);
         }
 
     }
@@ -91,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void sendLion(View view){
-        for(int i=0;i<Vibes.length;i++){
+        for(int i=0;i<Vibes2.length;i++){
             if(!Vibes2[i].isPlaying()){
                 Vibes2[i].start();
                 return;
@@ -99,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void sendYouSmart(View view){
-        for(int i=0;i<Vibes.length;i++){
+        for(int i=0;i<Vibes3.length;i++){
             if(!Vibes3[i].isPlaying()){
                 Vibes3[i].start();
                 return;
@@ -190,6 +218,118 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<Vibes14.length;i++){
             if(!Vibes14[i].isPlaying()){
                 Vibes14[i].start();
+                return;
+            }
+        }
+    }
+    public void sendAnotherCrab (View view) {
+        for (int i = 0; i < Vibes15.length; i++) {
+            if (!Vibes15[i].isPlaying()) {
+                Vibes15[i].start();
+                return;
+            }
+        }
+    }
+    public void sendBamboo (View view) {
+        for (int i = 0; i < Vibes16.length; i++) {
+            if (!Vibes16[i].isPlaying()) {
+                Vibes16[i].start();
+                return;
+            }
+        }
+    }
+    public void sendBowDown (View view){
+        for(int i=0;i<Vibes17.length;i++) {
+            if (!Vibes17[i].isPlaying()) {
+                Vibes17[i].start();
+                return;
+            }
+        }
+    }
+    public void sendClothTalk (View view) {
+        for(int i=0;i<Vibes18.length;i++) {
+            if (!Vibes18[i].isPlaying()) {
+                Vibes18[i].start();
+                return;
+            }
+        }
+    }
+    public void sendEggWhites (View view) {
+        for(int i=0;i<Vibes19.length;i++) {
+            if (!Vibes19[i].isPlaying()) {
+                Vibes19[i].start();
+                return;
+            }
+        }
+    }
+    public void sendHowsBusiness (View view) {
+        for(int i=0;i<Vibes20.length;i++) {
+            if (!Vibes20[i].isPlaying()) {
+                Vibes20[i].start();
+                return;
+            }
+        }
+    }
+    public void sendJustOpenIt (View view) {
+        for(int i=0;i<Vibes21.length;i++) {
+            if (!Vibes21[i].isPlaying()) {
+                Vibes21[i].start();
+                return;
+            }
+        }
+    }
+    public void sendLearningIsCool (View view) {
+        for(int i=0;i<Vibes22.length;i++) {
+            if (!Vibes22[i].isPlaying()) {
+                Vibes22[i].start();
+                return;
+            }
+        }
+    }
+    public void sendLookInMyEyes (View view) {
+        for(int i=0;i<Vibes23.length;i++) {
+            if (!Vibes23[i].isPlaying()) {
+                Vibes23[i].start();
+                return;
+            }
+        }
+    }
+    public void sendNoLunch (View view) {
+        for(int i=0;i<Vibes24.length;i++) {
+            if (!Vibes24[i].isPlaying()) {
+                Vibes24[i].start();
+                return;
+            }
+        }
+    }
+    public void sendPathway (View view) {
+        for(int i=0;i<Vibes25.length;i++) {
+            if (!Vibes25[i].isPlaying()) {
+                Vibes25[i].start();
+                return;
+            }
+        }
+    }
+    public void sendPillows (View view) {
+        for(int i=0;i<Vibes26.length;i++) {
+            if (!Vibes26[i].isPlaying()) {
+                Vibes26[i].start();
+                return;
+            }
+        }
+    }
+    public void sendRoadblocks (View view) {
+        for(int i=0;i<Vibes27.length;i++) {
+            if (!Vibes27[i].isPlaying()) {
+                Vibes27[i].start();
+                return;
+            }
+        }
+    }
+    public void sendYouPlayedYourself (View view) {
+        for(int i=0;i<Vibes28.length;i++) {
+            if (!Vibes28[i].isPlaying()) {
+                Vibes28[i].start();
                 return;
             }
         }
