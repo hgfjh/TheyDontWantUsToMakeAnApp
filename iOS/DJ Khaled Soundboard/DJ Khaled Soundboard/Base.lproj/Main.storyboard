@@ -32,45 +32,18 @@
                                 <rect key="frame" x="440" y="83" width="65" height="30"/>
                                 <state key="normal" title="You Loyal"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Another One" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qs6-62-8ZP">
-                                <rect key="frame" x="70" y="121" width="92" height="37"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="You Smart" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Woo-LU-nOM">
-                                <rect key="frame" x="262" y="119" width="77" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="You Loyal" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ixz-YI-fOw">
-                                <rect key="frame" x="439" y="121" width="83" height="37"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="6Wr-bf-YWl" secondAttribute="trailing" constant="10" id="2Fb-DS-rWb"/>
                             <constraint firstItem="6Wr-bf-YWl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="6qy-o2-YAp"/>
                             <constraint firstItem="44B-PZ-Ula" firstAttribute="leading" secondItem="Kfj-TK-1zM" secondAttribute="trailing" constant="10" id="FIz-MN-ey6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ixz-YI-fOw" secondAttribute="trailing" constant="10" id="Qtx-kq-OV0"/>
-                            <constraint firstItem="qs6-62-8ZP" firstAttribute="top" secondItem="Kfj-TK-1zM" secondAttribute="bottom" constant="10" id="R3d-Iq-CoC"/>
                             <constraint firstItem="6Wr-bf-YWl" firstAttribute="leading" secondItem="44B-PZ-Ula" secondAttribute="trailing" constant="10" id="SOt-mk-nyX"/>
-                            <constraint firstItem="Ixz-YI-fOw" firstAttribute="leading" secondItem="Woo-LU-nOM" secondAttribute="trailing" constant="10" id="TGD-WT-ljW"/>
                             <constraint firstItem="Kfj-TK-1zM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="TUV-f3-hbZ"/>
-                            <constraint firstItem="Ixz-YI-fOw" firstAttribute="leading" secondItem="Woo-LU-nOM" secondAttribute="trailing" constant="10" id="bVO-uE-H1I"/>
-                            <constraint firstItem="qs6-62-8ZP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="e8b-TW-Pmg"/>
                             <constraint firstItem="6Wr-bf-YWl" firstAttribute="leading" secondItem="44B-PZ-Ula" secondAttribute="trailing" constant="10" id="hPA-bg-Hmg"/>
-                            <constraint firstItem="Woo-LU-nOM" firstAttribute="top" secondItem="44B-PZ-Ula" secondAttribute="bottom" constant="10" id="jNr-f9-EJd"/>
                             <constraint firstItem="Kfj-TK-1zM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="nE4-aA-QKi"/>
-                            <constraint firstItem="Ixz-YI-fOw" firstAttribute="top" secondItem="6Wr-bf-YWl" secondAttribute="bottom" constant="10" id="oHw-0H-jG1"/>
                             <constraint firstItem="44B-PZ-Ula" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="rNI-5L-hlW"/>
-                            <constraint firstItem="Woo-LU-nOM" firstAttribute="leading" secondItem="qs6-62-8ZP" secondAttribute="trailing" constant="10" id="scu-Wo-ZFf"/>
                             <constraint firstItem="44B-PZ-Ula" firstAttribute="leading" secondItem="Kfj-TK-1zM" secondAttribute="trailing" constant="10" id="xWQ-Hw-gTY"/>
-                            <constraint firstItem="Woo-LU-nOM" firstAttribute="leading" secondItem="qs6-62-8ZP" secondAttribute="trailing" constant="10" id="xXd-pI-CSV"/>
                         </constraints>
                     </view>
                 </viewController>
