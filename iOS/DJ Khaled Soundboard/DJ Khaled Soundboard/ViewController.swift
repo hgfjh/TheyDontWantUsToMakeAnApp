@@ -13,12 +13,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ScrollView: UIScrollView!
     
-    let AnotherOneAudioUrlPath = NSBundle.mainBundle().pathForResource("AnotherOne", ofType: "mp3")
+   // let AnotherOneAudioUrlPath = NSBundle.mainBundle().pathForResource("AnotherOne", ////ofType: //"mp3")
         override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
            //create 2 view objects
             //Ignore the xcode warning below
+            NSLog("View Loaded")
             var V1 :View1 = View1(nibName: "View1",bundle:nil)
             var V2 :View2 = View2(nibName: "View2",bundle:nil)
             //add view objects to the scrolling
@@ -33,7 +34,7 @@ class ViewController: UIViewController {
             var V2Frame: CGRect = V2.view.frame
             V2Frame.origin.x = self.view.frame.width
             V2.view.frame = V2Frame
-            //define scrollview Size
+            //define scrollview Size width will be * 4 when all the views are added
             self.ScrollView.contentSize=CGSizeMake(self.view.frame.width*2,
             self.view.frame.size.height)
     }
