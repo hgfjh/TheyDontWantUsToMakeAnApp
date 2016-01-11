@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F2442C1C421EAA00C7C354 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F2442B1C421EAA00C7C354 /* AVFoundation.framework */; };
 		733FBFBA1C4174DB00FBFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */; };
 		733FBFBC1C4174DB00FBFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */; };
 		733FBFBF1C4174DB00FBFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733FBFBD1C4174DB00FBFEE9 /* Main.storyboard */; };
@@ -47,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F2442C1C421EAA00C7C354 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
