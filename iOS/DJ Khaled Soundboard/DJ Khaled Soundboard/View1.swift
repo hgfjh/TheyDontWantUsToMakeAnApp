@@ -15,12 +15,13 @@ class View1: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
     var anotherOnePlayers:[AVAudioPlayer]=[AVAudioPlayer(),AVAudioPlayer(),
         AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),
         AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer()]
     var aoc = 0
     @IBAction func AnotherOne(sender: AnyObject) {
-        let path = NSBundle.mainBundle().pathForResource("AnotherOne.mp3", ofType: nil)!
+        let path = NSBundle.mainBundle().pathForResource("AnotherOne.mp3", ofType:nil)!
         let url = NSURL(fileURLWithPath: path)
         //let AnotherOneUrl = NSURL(fileURLWithPath: "/Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3")
         do{
@@ -33,45 +34,6 @@ class View1: UIViewController {
             //do nothing
         }
     }
-    
-    var youSmartPlayers:[AVAudioPlayer]=[AVAudioPlayer(),AVAudioPlayer(),
-        AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),
-        AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer()]
-   var ysc = 0
-    @IBAction func YouSmart(sender: AnyObject) {
-        let path = NSBundle.mainBundle().pathForResource("uSmart.mp3", ofType: nil)!
-        let url = NSURL(fileURLWithPath: path)
-        //let AnotherOneUrl = NSURL(fileURLWithPath: "/Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3")
-        do{
-            try youSmartPlayers[ysc%10] = AVAudioPlayer(contentsOfURL: url)
-            youSmartPlayers[ysc%10].prepareToPlay()
-            youSmartPlayers[ysc%10].play();
-            ysc++;
-            NSLog("Button working");
-        }catch{
-            //do nothing
-        }
-    }
-    
-    var youLoyalPlayers:[AVAudioPlayer]=[AVAudioPlayer(),AVAudioPlayer(),
-        AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),
-        AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer()]
-    var ylc = 0
-    @IBAction func YouLoyal(sender: AnyObject) {
-        let path = NSBundle.mainBundle().pathForResource("uLoyal.mp3", ofType: nil)!
-        let url = NSURL(fileURLWithPath: path)
-        //let AnotherOneUrl = NSURL(fileURLWithPath: "/Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3")
-        do{
-            try youLoyalPlayers[ylc%10] = AVAudioPlayer(contentsOfURL: url)
-            youLoyalPlayers[ylc%10].prepareToPlay()
-            youLoyalPlayers[ylc%10].play();
-            ylc++;
-            NSLog("Button working");
-        }catch{
-            //do nothing
-        }
-    }
-    
     
     /*
     // MARK: - Navigation
