@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View1" customModule="DJ_Khaled_Soundboard" customModuleProvider="target">
+            <connections>
+                <outlet property="AnotherOne" destination="pOE-3b-dbB" id="8wS-w8-5T4"/>
+                <outlet property="YouLoyal" destination="vkY-8F-09Z" id="v2z-MG-zF7"/>
+                <outlet property="YouSmart" destination="YxS-Ng-uaQ" id="Fv4-35-1pm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text=" Another One--&gt;" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHa-YS-jX7">
+                    <rect key="frame" x="183" y="8" width="235" height="52"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOE-3b-dbB">
+                    <rect key="frame" x="0.0" y="117" width="165" height="30"/>
+                    <state key="normal" title="Another One"/>
+                    <connections>
+                        <action selector="AnotherOne:" destination="-1" eventType="touchUpInside" id="lO0-aO-GF5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxS-Ng-uaQ">
+                    <rect key="frame" x="255" y="117" width="91" height="30"/>
+                    <state key="normal" title="You Smart"/>
+                    <connections>
+                        <action selector="YouSmart:" destination="-1" eventType="touchUpInside" id="PqS-zK-kS6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkY-8F-09Z">
+                    <rect key="frame" x="524" y="117" width="76" height="30"/>
+                    <state key="normal" title="You Loyal"/>
+                    <connections>
+                        <action selector="YouLoyal:" destination="-1" eventType="touchUpInside" id="TGS-IB-DeW"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YxS-Ng-uaQ" firstAttribute="top" secondItem="GHa-YS-jX7" secondAttribute="bottom" constant="30" id="8S8-Dx-91l"/>
+                <constraint firstItem="pOE-3b-dbB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="9oG-Yr-1Oh"/>
+                <constraint firstItem="vkY-8F-09Z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="FyX-Bo-f6R"/>
+                <constraint firstAttribute="trailing" secondItem="YxS-Ng-uaQ" secondAttribute="trailing" constant="75" id="OBK-iA-rYE"/>
+                <constraint firstAttribute="trailing" secondItem="vkY-8F-09Z" secondAttribute="trailing" constant="30" id="Pqq-5A-JaI"/>
+                <constraint firstAttribute="trailing" secondItem="pOE-3b-dbB" secondAttribute="trailing" constant="75" id="YnF-6O-H9x"/>
+                <constraint firstItem="GHa-YS-jX7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="22" id="aiF-bl-9Mw"/>
+                <constraint firstItem="pOE-3b-dbB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eEp-Xb-Z0r"/>
+                <constraint firstItem="GHa-YS-jX7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="183" id="fw1-SK-DK2"/>
+                <constraint firstAttribute="trailing" secondItem="GHa-YS-jX7" secondAttribute="trailing" constant="182" id="iwT-d8-EYq"/>
+                <constraint firstItem="pOE-3b-dbB" firstAttribute="top" secondItem="GHa-YS-jX7" secondAttribute="bottom" constant="30" id="lh1-yw-uG1"/>
+            </constraints>
+            <point key="canvasLocation" x="133" y="345"/>
+        </view>
+    </objects>
+</document>
