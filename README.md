@@ -25,7 +25,7 @@
   
   <h2>FEATURES</h2>
   <ul style="list-style-type:square">
-    <li>Press each button to hear some words of wisdom from DJ Khaled<li>
+    <li>Press each button to hear some words of wisdom from DJ Khaled</li>
     <li>More coming soon!</li>
   </ul>
   
