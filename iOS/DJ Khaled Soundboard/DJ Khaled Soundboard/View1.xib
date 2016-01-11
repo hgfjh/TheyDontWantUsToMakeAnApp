@@ -27,6 +27,83 @@
                         <action selector="AnotherOne:" destination="-1" eventType="touchUpInside" id="Xfc-rB-mTm"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8m-hf-Ao1">
+                    <rect key="frame" x="47" y="193" width="71" height="30"/>
+                    <state key="normal" title="You Smart"/>
+                    <connections>
+                        <action selector="YouSmart:" destination="-1" eventType="touchUpInside" id="U7p-5g-vHe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3b-6p-tbh">
+                    <rect key="frame" x="47" y="254" width="65" height="30"/>
+                    <state key="normal" title="You Loyal"/>
+                    <connections>
+                        <action selector="YouLoyal:" destination="-1" eventType="touchUpInside" id="NbY-T1-Nbu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlW-le-hSx">
+                    <rect key="frame" x="64" y="317" width="30" height="30"/>
+                    <state key="normal" title="Lion"/>
+                    <connections>
+                        <action selector="Lion:" destination="-1" eventType="touchUpInside" id="AfM-CG-8Yt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZL-pJ-lHL">
+                    <rect key="frame" x="58" y="384" width="99" height="30"/>
+                    <state key="normal" title="Never Give Up"/>
+                    <connections>
+                        <action selector="NeverGiveUp:" destination="-1" eventType="touchUpInside" id="X7y-tP-R71"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc4-Wz-Esm">
+                    <rect key="frame" x="47" y="442" width="110" height="30"/>
+                    <state key="normal" title="Handle Success"/>
+                    <connections>
+                        <action selector="HandleSuccess:" destination="-1" eventType="touchUpInside" id="kwL-08-Mai"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5m7-qe-3BA">
+                    <rect key="frame" x="255" y="123" width="91" height="30"/>
+                    <state key="normal" title="You A Genius"/>
+                    <connections>
+                        <action selector="YouAGenius:" destination="-1" eventType="touchUpInside" id="csf-Hb-pKT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6yi-KG-3EB">
+                    <rect key="frame" x="260" y="193" width="87" height="33"/>
+                    <state key="normal" title="We The Best"/>
+                    <connections>
+                        <action selector="WeTheBest:" destination="-1" eventType="touchUpInside" id="hHD-iE-OQe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqT-lZ-u9a">
+                    <rect key="frame" x="269" y="254" width="69" height="30"/>
+                    <state key="normal" title="Cloth Talk"/>
+                    <connections>
+                        <action selector="ClothTalk:" destination="-1" eventType="touchUpInside" id="MSt-8x-CXz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Q6-9Od">
+                    <rect key="frame" x="264" y="317" width="78" height="30"/>
+                    <state key="normal" title="Egg Whites"/>
+                    <connections>
+                        <action selector="EggWhites:" destination="-1" eventType="touchUpInside" id="Js5-N6-3sF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XST-x2-jQB">
+                    <rect key="frame" x="247" y="384" width="107" height="30"/>
+                    <state key="normal" title="How's Business"/>
+                    <connections>
+                        <action selector="HowsBusiness:" destination="-1" eventType="touchUpInside" id="x3t-Tu-iPs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qE8-0J-rcQ">
+                    <rect key="frame" x="261" y="442" width="84" height="30"/>
+                    <state key="normal" title="Just Open It"/>
+                    <connections>
+                        <action selector="JustOpenIt:" destination="-1" eventType="touchUpInside" id="deN-Ky-uct"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="133" y="345"/>
