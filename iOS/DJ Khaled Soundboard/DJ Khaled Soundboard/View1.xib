@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View1" customModule="DJ_Khaled_Soundboard" customModuleProvider="target">
@@ -23,11 +24,8 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                     <state key="normal" title="YOU LOYAL" backgroundImage="button.png"/>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="167" y="185" width="65" height="30"/>
-                    </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="140" y="251" width="90" height="90"/>
+                        <rect key="frame" x="155" y="203" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="YouLoyal:" destination="-1" eventType="touchUpInside" id="NbY-T1-Nbu"/>
@@ -41,11 +39,8 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                     <state key="normal" title="YOU A GENIUS" backgroundImage="button.png"/>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="153" y="55" width="91" height="30"/>
-                    </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="140" y="123" width="90" height="90"/>
+                        <rect key="frame" x="155" y="75" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="YouAGenius:" destination="-1" eventType="touchUpInside" id="csf-Hb-pKT"/>
@@ -59,11 +54,8 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                     <state key="normal" title="EGG WHITES" backgroundImage="button.png"/>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="161" y="335" width="78" height="30"/>
-                    </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="140" y="404" width="90" height="90"/>
+                        <rect key="frame" x="155" y="356" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="EggWhites:" destination="-1" eventType="touchUpInside" id="Js5-N6-3sF"/>
@@ -81,7 +73,7 @@
                         <rect key="frame" x="47" y="404" width="30" height="30"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="8" y="404" width="90" height="90"/>
+                        <rect key="frame" x="23" y="356" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="Lion:" destination="-1" eventType="touchUpInside" id="AfM-CG-8Yt"/>
@@ -99,7 +91,7 @@
                         <rect key="frame" x="19" y="249" width="87" height="33"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="8" y="251" width="90" height="90"/>
+                        <rect key="frame" x="23" y="203" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="WeTheBest:" destination="-1" eventType="touchUpInside" id="hHD-iE-OQe"/>
@@ -117,7 +109,7 @@
                         <rect key="frame" x="7" y="562" width="110" height="30"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="8" y="552" width="90" height="90"/>
+                        <rect key="frame" x="23" y="504" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="HandleSuccess:" destination="-1" eventType="touchUpInside" id="kwL-08-Mai"/>
@@ -154,7 +146,7 @@
                         </mask>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="8" y="123" width="90" height="90"/>
+                        <rect key="frame" x="23" y="75" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="AnotherOne:" destination="-1" eventType="touchUpInside" id="Xfc-rB-mTm"/>
@@ -172,10 +164,10 @@
                         <rect key="frame" x="493" y="123" width="71" height="30"/>
                     </variation>
                     <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="10" width="120" height="120"/>
+                        <rect key="frame" x="253" y="40" width="90" height="90"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="123" width="90" height="90"/>
+                        <rect key="frame" x="287" y="75" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="YouSmart:" destination="-1" eventType="touchUpInside" id="U7p-5g-vHe"/>
@@ -193,10 +185,10 @@
                         <rect key="frame" x="479" y="404" width="99" height="30"/>
                     </variation>
                     <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="290" width="120" height="120"/>
+                        <rect key="frame" x="253" y="240" width="90" height="90"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="404" width="90" height="90"/>
+                        <rect key="frame" x="287" y="356" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="NeverGiveUp:" destination="-1" eventType="touchUpInside" id="X7y-tP-R71"/>
@@ -214,13 +206,28 @@
                         <rect key="frame" x="494" y="251" width="69" height="30"/>
                     </variation>
                     <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="140" width="120" height="120"/>
+                        <rect key="frame" x="253" y="140" width="90" height="90"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="251" width="90" height="90"/>
+                        <rect key="frame" x="287" y="203" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="ClothTalk:" destination="-1" eventType="touchUpInside" id="MSt-8x-CXz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XST-x2-jQB">
+                    <rect key="frame" x="240" y="450" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XST-x2-jQB" secondAttribute="height" multiplier="1:1" id="ngu-Sa-MWN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="HOW'S BUSINESS" backgroundImage="button.png"/>
+                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="155" y="504" width="90" height="90"/>
+                    </variation>
+                    <connections>
+                        <action selector="HowsBusiness:" destination="-1" eventType="touchUpInside" id="x3t-Tu-iPs"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qE8-0J-rcQ">
@@ -235,40 +242,25 @@
                         <rect key="frame" x="487" y="562" width="84" height="30"/>
                     </variation>
                     <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="440" width="120" height="120"/>
+                        <rect key="frame" x="253" y="340" width="90" height="90"/>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="272" y="552" width="90" height="90"/>
+                        <rect key="frame" x="287" y="504" width="90" height="90"/>
                     </variation>
                     <connections>
                         <action selector="JustOpenIt:" destination="-1" eventType="touchUpInside" id="deN-Ky-uct"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XST-x2-jQB">
-                    <rect key="frame" x="240" y="450" width="100" height="100"/>
-                    <constraints>
-                        <constraint firstAttribute="width" secondItem="XST-x2-jQB" secondAttribute="height" multiplier="1:1" id="ngu-Sa-MWN"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
-                    <state key="normal" title="HOW'S BUSINESS" backgroundImage="button.png"/>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="145" y="485" width="107" height="30"/>
-                    </variation>
-                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="140" y="552" width="90" height="90"/>
-                    </variation>
-                    <connections>
-                        <action selector="HowsBusiness:" destination="-1" eventType="touchUpInside" id="x3t-Tu-iPs"/>
-                    </connections>
-                </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll for another one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qz2-5z-qLM">
-                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe for another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-PB-D3R">
+                    <rect key="frame" x="216" y="571" width="169" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="102" y="465" width="183" height="21"/>
+                    </variation>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="118" y="734" width="165" height="21"/>
+                        <rect key="frame" x="116" y="626" width="169" height="21"/>
                     </variation>
                 </label>
             </subviews>
@@ -284,6 +276,7 @@
                 <constraint firstItem="MZL-pJ-lHL" firstAttribute="centerY" secondItem="FlW-le-hSx" secondAttribute="centerY" id="BO8-We-StW"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="width" secondItem="WFl-MR-omC" secondAttribute="width" id="BVe-ee-tDM"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DtZ-Xy-kf4"/>
+                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="fEN-PB-D3R" secondAttribute="bottom" priority="250" constant="10" id="ELY-Ig-ZHK"/>
                 <constraint firstItem="XST-x2-jQB" firstAttribute="centerY" secondItem="boh-Q6-9Od" secondAttribute="centerY" constant="100" id="HL5-bf-GLA"/>
                 <constraint firstItem="E3b-6p-tbh" firstAttribute="centerY" secondItem="6yi-KG-3EB" secondAttribute="centerY" id="IRT-WI-N5z"/>
                 <constraint firstItem="mqT-lZ-u9a" firstAttribute="leading" secondItem="E3b-6p-tbh" secondAttribute="trailing" constant="10" id="Ir9-Og-S35"/>
@@ -320,12 +313,10 @@
                 <constraint firstItem="qE8-0J-rcQ" firstAttribute="leading" secondItem="XST-x2-jQB" secondAttribute="trailing" constant="10" id="uvg-dC-GsN"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="centerY" secondItem="WFl-MR-omC" secondAttribute="centerY" id="vNK-sp-Dza"/>
                 <constraint firstItem="boh-Q6-9Od" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vyh-Pe-YHh"/>
+                <constraint firstItem="fEN-PB-D3R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xmV-dT-687"/>
                 <constraint firstItem="XST-x2-jQB" firstAttribute="leading" secondItem="wc4-Wz-Esm" secondAttribute="trailing" constant="10" id="y9e-Zl-E7p"/>
             </constraints>
             <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="qz2-5z-qLM"/>
-                </mask>
                 <mask key="constraints">
                     <exclude reference="J5s-T0-Jnv"/>
                     <exclude reference="d1q-eB-9T9"/>
@@ -336,11 +327,11 @@
                     <exclude reference="VVr-hl-gPG"/>
                     <exclude reference="g00-V2-2nE"/>
                     <exclude reference="kxh-fn-hUd"/>
-                    <exclude reference="Ir9-Og-S35"/>
-                    <exclude reference="haA-0k-GlV"/>
                     <exclude reference="JI2-3w-d5D"/>
                     <exclude reference="jPe-Ov-kxR"/>
                     <exclude reference="pcm-89-nyv"/>
+                    <exclude reference="Ir9-Og-S35"/>
+                    <exclude reference="haA-0k-GlV"/>
                     <exclude reference="BO8-We-StW"/>
                     <exclude reference="PEe-pA-BgB"/>
                     <exclude reference="HL5-bf-GLA"/>
@@ -348,6 +339,8 @@
                     <exclude reference="y9e-Zl-E7p"/>
                     <exclude reference="WZq-P1-w6q"/>
                     <exclude reference="uvg-dC-GsN"/>
+                    <exclude reference="ELY-Ig-ZHK"/>
+                    <exclude reference="xmV-dT-687"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -361,11 +354,11 @@
                     <include reference="VVr-hl-gPG"/>
                     <include reference="g00-V2-2nE"/>
                     <exclude reference="kxh-fn-hUd"/>
-                    <include reference="Ir9-Og-S35"/>
-                    <include reference="haA-0k-GlV"/>
                     <include reference="JI2-3w-d5D"/>
                     <include reference="jPe-Ov-kxR"/>
                     <include reference="pcm-89-nyv"/>
+                    <include reference="Ir9-Og-S35"/>
+                    <include reference="haA-0k-GlV"/>
                     <include reference="BO8-We-StW"/>
                     <include reference="PEe-pA-BgB"/>
                     <include reference="HL5-bf-GLA"/>
@@ -373,14 +366,11 @@
                     <include reference="y9e-Zl-E7p"/>
                     <include reference="WZq-P1-w6q"/>
                     <include reference="uvg-dC-GsN"/>
+                    <include reference="ELY-Ig-ZHK"/>
+                    <include reference="xmV-dT-687"/>
                 </mask>
             </variation>
-            <variation key="heightClass=regular-widthClass=compact">
-                <mask key="subviews">
-                    <include reference="qz2-5z-qLM"/>
-                </mask>
-            </variation>
-            <point key="canvasLocation" x="126" y="272"/>
+            <point key="canvasLocation" x="153" y="317"/>
         </view>
     </objects>
     <resources>
