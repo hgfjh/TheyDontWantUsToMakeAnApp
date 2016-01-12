@@ -16,6 +16,17 @@ class View1: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    /**
+     * This will be the same documentaton for all the button methods
+     * This method is called when a button is pressed and will reinitialize 
+     * the audio player from the array (mp3name)Players at the index variable
+     * directly below the players array so that the player can play simultaneous 
+     * sounds (up to 10 of the same sound at any given time) and it will directly 
+     * play on the first availible one because of the incremented counter which
+     * will go to an audio player thats either not playing or the one thats 
+     * closest to finishing. A path to the mp3 file is defined and 
+     * the AVaudio player is initialized with this path and played
+     */
     var anotherOnePlayers:[AVAudioPlayer]=[AVAudioPlayer(),AVAudioPlayer(),
         AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),
         AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer()]
@@ -109,7 +120,7 @@ class View1: UIViewController {
             NeverGiveUpPlayers[ngu%10].prepareToPlay()
             NeverGiveUpPlayers[ngu%10].play();
             ngu++;
-            NSLog("Button working");
+            //NSLog("Button working");
         }catch{
             //do nothing
         }
@@ -129,7 +140,7 @@ class View1: UIViewController {
             HandleSuccessPlayers[hs%10].prepareToPlay()
             HandleSuccessPlayers[hs%10].play();
             hs++;
-            NSLog("Button working");
+           // NSLog("Button working");
         }catch{
             //do nothing
         }
@@ -149,7 +160,7 @@ class View1: UIViewController {
             GeniusPlayers[yag%10].prepareToPlay()
             GeniusPlayers[yag%10].play();
             yag++;
-            NSLog("Button working");
+          //  NSLog("Button working");
         }catch{
             //do nothing
         }
@@ -169,7 +180,7 @@ class View1: UIViewController {
             WeTheBestPlayers[wtb%10].prepareToPlay()
             WeTheBestPlayers[wtb%10].play();
             wtb++;
-            NSLog("Button working");
+         //   NSLog("Button working");
         }catch{
             //do nothing
         }
