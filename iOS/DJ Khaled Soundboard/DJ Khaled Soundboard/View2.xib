@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
@@ -17,57 +17,87 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHN-cN-0Ft">
                     <rect key="frame" x="31" y="114" width="111" height="30"/>
                     <state key="normal" title="Learning Is Cool"/>
+                    <connections>
+                        <action selector="LearningIsCool:" destination="-1" eventType="touchUpInside" id="hvO-iZ-Fka"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LS3-NU-QfB">
                     <rect key="frame" x="57" y="172" width="58" height="30"/>
                     <state key="normal" title="My Eyes"/>
+                    <connections>
+                        <action selector="MyEyes:" destination="-1" eventType="touchUpInside" id="xVB-hV-ml5"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e48-AL-Leo">
                     <rect key="frame" x="47" y="226" width="66" height="30"/>
                     <state key="normal" title="No Lunch"/>
+                    <connections>
+                        <action selector="NoLunch:" destination="-1" eventType="touchUpInside" id="xLn-bW-R48"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7x-9a-WCr">
                     <rect key="frame" x="51" y="285" width="58" height="30"/>
                     <state key="normal" title="Pathway"/>
+                    <connections>
+                        <action selector="Pathway:" destination="-1" eventType="touchUpInside" id="uHh-FL-Gex"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h2-Aj-rJy">
                     <rect key="frame" x="57" y="345" width="47" height="30"/>
                     <state key="normal" title="Pillows"/>
+                    <connections>
+                        <action selector="Pillows:" destination="-1" eventType="touchUpInside" id="osa-zU-tEB"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y10-ux-sih">
                     <rect key="frame" x="41" y="404" width="80" height="30"/>
                     <state key="normal" title="Roadblocks"/>
+                    <connections>
+                        <action selector="Roadblocks:" destination="-1" eventType="touchUpInside" id="s1v-tm-V6S"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-vP-OCm">
                     <rect key="frame" x="238" y="114" width="106" height="30"/>
                     <state key="normal" title="Played Yourself"/>
+                    <connections>
+                        <action selector="PlayedYourself:" destination="-1" eventType="touchUpInside" id="Pgl-Fd-EtN"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71v-ln-zj2">
                     <rect key="frame" x="265" y="172" width="52" height="30"/>
                     <state key="normal" title="Houses"/>
+                    <connections>
+                        <action selector="Houses:" destination="-1" eventType="touchUpInside" id="f2x-97-b14"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rC3-Z2-YZP">
-                    <rect key="frame" x="228" y="226" width="126" height="30"/>
-                    <state key="normal" title="Dont Play Yourself"/>
+                    <rect key="frame" x="227" y="226" width="129" height="30"/>
+                    <state key="normal" title="Don't Play Yourself"/>
+                    <connections>
+                        <action selector="DontPlayYourself:" destination="-1" eventType="touchUpInside" id="1qk-zV-1da"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4a-RJ-dNF">
                     <rect key="frame" x="236" y="285" width="104" height="30"/>
                     <state key="normal" title="Appreciate you"/>
+                    <connections>
+                        <action selector="AppreciateYou:" destination="-1" eventType="touchUpInside" id="V1c-aK-47w"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvV-dF-En4">
                     <rect key="frame" x="240" y="345" width="96" height="30"/>
                     <state key="normal" title="Changed a lot"/>
+                    <connections>
+                        <action selector="ChangedAlot:" destination="-1" eventType="touchUpInside" id="bVh-2g-NhQ"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPF-2p-cPg">
                     <rect key="frame" x="258" y="404" width="72" height="30"/>
                     <state key="normal" title="Just Know"/>
+                    <connections>
+                        <action selector="JustKnow:" destination="-1" eventType="touchUpInside" id="4wj-5A-tcd"/>
+                    </connections>
                 </button>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="&lt;--Another One--&gt;" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWb-Qy-1BN">
-                    <rect key="frame" x="51" y="26" width="258" height="52"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                </textView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
