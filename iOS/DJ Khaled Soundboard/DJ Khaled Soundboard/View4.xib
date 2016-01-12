@@ -46,7 +46,7 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="© 2016 AppDevil Developers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-yQ-80U">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="© 2016 AppDevil Developers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-yQ-80U">
                     <rect key="frame" x="217" y="552" width="167" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -60,7 +60,7 @@
                 <constraint firstItem="sPK-ff-IcG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7wN-xs-RE3"/>
                 <constraint firstItem="afe-ph-bg2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Eiz-sz-ud7"/>
                 <constraint firstItem="CFu-gF-RWe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PUE-7e-qvq"/>
-                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="8bp-yQ-80U" secondAttribute="bottom" constant="10" id="jHD-Xy-5mD"/>
+                <constraint firstAttribute="bottomMargin" secondItem="8bp-yQ-80U" secondAttribute="bottom" constant="10" id="jHD-Xy-5mD"/>
                 <constraint firstItem="ZNx-bc-hV6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pjj-k0-uoL"/>
             </constraints>
         </view>
