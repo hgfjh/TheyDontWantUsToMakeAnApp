@@ -21,7 +21,7 @@ class View1: UIViewController {
         AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer(),AVAudioPlayer()]
     var aoc = 0
     @IBAction func AnotherOne(sender: AnyObject) {
-        let path = NSBundle.mainBundle().pathForResource("AnotherOne.mp3", ofType:nil)!
+        let path = NSBundle.mainBundle().pathForResource("anotherone.mp3", ofType:nil)!
         let url = NSURL(fileURLWithPath: path)
         //let AnotherOneUrl = NSURL(fileURLWithPath: "/Users/rafi/Dropbox/Business Docs/Panyk Tech/App Devil/TheyDontWantUsToMakeAnApp/iOS/DJ Khaled Soundboard/DJ Khaled Soundboard/AnotherOne.mp3")
         do{

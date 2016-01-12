@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View3" customModule="DJ_Khaled_Soundboard" customModuleProvider="target">
@@ -14,30 +16,90 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="&lt;--Another One--&gt;" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZH-1o-jBB">
-                    <rect key="frame" x="79" y="33" width="240" height="51"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                </textView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA3-IW-0TU">
-                    <rect key="frame" x="30" y="122" width="74" height="30"/>
-                    <state key="normal" title="Know That"/>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bA3-IW-0TU">
+                    <rect key="frame" x="183" y="122" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="Ks3-tw-MxR"/>
+                        <constraint firstAttribute="height" constant="90" id="kf4-xq-Xkk"/>
+                        <constraint firstAttribute="width" secondItem="bA3-IW-0TU" secondAttribute="height" multiplier="1:1" id="yIF-bN-mUs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="KNOW THAT" backgroundImage="button.png"/>
+                    <connections>
+                        <action selector="KnowThat:" destination="-1" eventType="touchUpInside" id="83f-yI-i4m"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SU2-HW-mtE">
-                    <rect key="frame" x="30" y="179" width="92" height="30"/>
-                    <state key="normal" title="Another Crab"/>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SU2-HW-mtE">
+                    <rect key="frame" x="183" y="239" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="SU2-HW-mtE" secondAttribute="height" multiplier="1:1" id="CCJ-tw-c1W"/>
+                        <constraint firstAttribute="height" constant="90" id="io6-Cr-Pcv"/>
+                        <constraint firstAttribute="width" constant="90" id="sXj-Ei-EZg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="ANOTHER CRAB" backgroundImage="button.png"/>
+                    <connections>
+                        <action selector="AnotherCrab:" destination="-1" eventType="touchUpInside" id="Wve-AN-DIO"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3e-bB-g6D">
-                    <rect key="frame" x="264" y="122" width="73" height="30"/>
-                    <state key="normal" title="Bow Down"/>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="a3e-bB-g6D">
+                    <rect key="frame" x="357" y="122" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a3e-bB-g6D" secondAttribute="height" multiplier="1:1" id="KRJ-xN-5JY"/>
+                        <constraint firstAttribute="height" constant="90" id="bts-WO-h98"/>
+                        <constraint firstAttribute="width" constant="90" id="wwv-1U-jlb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="BOW DOWN" backgroundImage="button.png"/>
+                    <connections>
+                        <action selector="BowDown:" destination="-1" eventType="touchUpInside" id="V4X-MJ-lhh"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWv-EK-Kkd">
-                    <rect key="frame" x="272" y="179" width="57" height="30"/>
-                    <state key="normal" title="Bamboo"/>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HWv-EK-Kkd">
+                    <rect key="frame" x="357" y="239" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="Moi-gN-N7f"/>
+                        <constraint firstAttribute="width" secondItem="HWv-EK-Kkd" secondAttribute="height" multiplier="1:1" id="PUU-ey-lqh"/>
+                        <constraint firstAttribute="width" constant="90" id="tjF-1x-GIC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="BAMBOO" backgroundImage="button.png"/>
+                    <connections>
+                        <action selector="Bamboo:" destination="-1" eventType="touchUpInside" id="d0g-04-Com"/>
+                    </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="...More features coming soon!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZY-CF-wMd">
+                    <rect key="frame" x="186" y="345" width="228" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="bA3-IW-0TU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-50" id="5dj-fQ-46i"/>
+                <constraint firstItem="SU2-HW-mtE" firstAttribute="centerY" secondItem="bA3-IW-0TU" secondAttribute="centerY" constant="100" id="7ZR-mI-clN"/>
+                <constraint firstItem="a3e-bB-g6D" firstAttribute="width" secondItem="bA3-IW-0TU" secondAttribute="width" id="OBq-A9-mOc"/>
+                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="1ZY-CF-wMd" secondAttribute="bottom" constant="10" id="RXB-0l-9R5"/>
+                <constraint firstItem="SU2-HW-mtE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-50" id="RyO-Fa-kWF"/>
+                <constraint firstItem="HWv-EK-Kkd" firstAttribute="centerY" secondItem="a3e-bB-g6D" secondAttribute="centerY" constant="100" id="VpP-tY-jji"/>
+                <constraint firstItem="HWv-EK-Kkd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="50" id="ZLC-f9-Neo"/>
+                <constraint firstItem="SU2-HW-mtE" firstAttribute="height" secondItem="bA3-IW-0TU" secondAttribute="height" id="c1F-8H-HeF"/>
+                <constraint firstItem="1ZY-CF-wMd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cqc-6f-4Or"/>
+                <constraint firstItem="a3e-bB-g6D" firstAttribute="height" secondItem="bA3-IW-0TU" secondAttribute="height" id="e90-Kj-9yf"/>
+                <constraint firstItem="SU2-HW-mtE" firstAttribute="width" secondItem="bA3-IW-0TU" secondAttribute="width" id="ecl-nv-yud"/>
+                <constraint firstItem="HWv-EK-Kkd" firstAttribute="width" secondItem="bA3-IW-0TU" secondAttribute="width" id="iF2-W1-YDa"/>
+                <constraint firstItem="HWv-EK-Kkd" firstAttribute="height" secondItem="bA3-IW-0TU" secondAttribute="height" id="lRZ-dB-4Bc"/>
+                <constraint firstItem="a3e-bB-g6D" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="50" id="oV1-eC-SC0"/>
+            </constraints>
+            <point key="canvasLocation" x="596" y="443"/>
         </view>
     </objects>
+    <resources>
+        <image name="button.png" width="859" height="885"/>
+    </resources>
 </document>

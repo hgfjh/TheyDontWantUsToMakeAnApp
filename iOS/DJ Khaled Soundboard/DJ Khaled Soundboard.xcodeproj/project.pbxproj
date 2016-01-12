@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F244301C44A9A700C7C354 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F2442F1C44A9A700C7C354 /* Untitled-1.png */; };
+		01F244321C44AA5800C7C354 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F244311C44AA5800C7C354 /* button.png */; };
+		01F244341C44DF9800C7C354 /* app-devil-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F244331C44DF9800C7C354 /* app-devil-logo.png */; };
 		733FBFBA1C4174DB00FBFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */; };
 		733FBFBC1C4174DB00FBFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */; };
 		733FBFBF1C4174DB00FBFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733FBFBD1C4174DB00FBFEE9 /* Main.storyboard */; };
@@ -65,6 +68,9 @@
 
 /* Begin PBXFileReference section */
 		01F2442B1C421EAA00C7C354 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		01F2442F1C44A9A700C7C354 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "../../../../DJKhaledSoundboard/graphics/Untitled-1.png"; sourceTree = "<group>"; };
+		01F244311C44AA5800C7C354 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../DJKhaledSoundboard/graphics/button.png; sourceTree = "<group>"; };
+		01F244331C44DF9800C7C354 /* app-devil-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-devil-logo.png"; path = "../../../../DJKhaledSoundboard/graphics/app-devil-logo.png"; sourceTree = "<group>"; };
 		733FBFB61C4174DB00FBFEE9 /* DJ Khaled Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Khaled Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -193,12 +199,15 @@
 				733FBFC51C4174DB00FBFEE9 /* Info.plist */,
 				73CF904D1C4344DC004FEEF5 /* View1.swift */,
 				73CF904E1C4344DD004FEEF5 /* View1.xib */,
+				01F244311C44AA5800C7C354 /* button.png */,
+				01F2442F1C44A9A700C7C354 /* Untitled-1.png */,
 				73CF90511C434633004FEEF5 /* View2.swift */,
 				73CF90521C434633004FEEF5 /* View2.xib */,
 				7383CFB61C4421E300E42B6C /* View3.swift */,
 				7383CFB71C4421E300E42B6C /* View3.xib */,
 				7383CFBA1C44225300E42B6C /* View4.swift */,
 				7383CFBB1C44225300E42B6C /* View4.xib */,
+				01F244331C44DF9800C7C354 /* app-devil-logo.png */,
 			);
 			path = "DJ Khaled Soundboard";
 			sourceTree = "<group>";
@@ -262,7 +271,7 @@
 				TargetAttributes = {
 					733FBFB51C4174DB00FBFEE9 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = P6SHLR6C36;
+						DevelopmentTeam = FUW4ANM42X;
 					};
 					733FBFC91C4174DC00FBFEE9 = {
 						CreatedOnToolsVersion = 7.2;
@@ -299,6 +308,8 @@
 				7383CFB41C44131500E42B6C /* uAGenius.mp3 in Resources */,
 				7383CFB21C44131500E42B6C /* SomePeopleCantHandleSuccess.mp3 in Resources */,
 				7383CFA51C4412C700E42B6C /* dontEverPlayYourself.mp3 in Resources */,
+				01F244301C44A9A700C7C354 /* Untitled-1.png in Resources */,
+				01F244341C44DF9800C7C354 /* app-devil-logo.png in Resources */,
 				7383CF851C44127800E42B6C /* bowDown.mp3 in Resources */,
 				7383CF9A1C4412C700E42B6C /* howsBusiness.mp3 in Resources */,
 				7383CFB11C44131500E42B6C /* neverGiveUp.mp3 in Resources */,
@@ -331,6 +342,7 @@
 				73CF905C1C4353EC004FEEF5 /* AnotherOne.mp3 in Resources */,
 				7383CFA91C4412C700E42B6C /* knowThat.mp3 in Resources */,
 				7383CFA61C4412C700E42B6C /* iAppreciateU.mp3 in Resources */,
+				01F244321C44AA5800C7C354 /* button.png in Resources */,
 				7383CFA01C4412C700E42B6C /* Pillows.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
