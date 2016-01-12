@@ -251,7 +251,7 @@
                         <action selector="JustOpenIt:" destination="-1" eventType="touchUpInside" id="deN-Ky-uct"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe for another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-PB-D3R">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Swipe for another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-PB-D3R">
                     <rect key="frame" x="216" y="571" width="169" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -324,23 +324,23 @@
                     <exclude reference="IRT-WI-N5z"/>
                     <exclude reference="Z8S-6K-wui"/>
                     <exclude reference="c10-7s-qEU"/>
-                    <exclude reference="VVr-hl-gPG"/>
-                    <exclude reference="g00-V2-2nE"/>
-                    <exclude reference="kxh-fn-hUd"/>
                     <exclude reference="JI2-3w-d5D"/>
                     <exclude reference="jPe-Ov-kxR"/>
                     <exclude reference="pcm-89-nyv"/>
+                    <exclude reference="VVr-hl-gPG"/>
+                    <exclude reference="g00-V2-2nE"/>
+                    <exclude reference="kxh-fn-hUd"/>
                     <exclude reference="Ir9-Og-S35"/>
                     <exclude reference="haA-0k-GlV"/>
-                    <exclude reference="BO8-We-StW"/>
-                    <exclude reference="PEe-pA-BgB"/>
                     <exclude reference="HL5-bf-GLA"/>
                     <exclude reference="bCx-i6-wgE"/>
                     <exclude reference="y9e-Zl-E7p"/>
-                    <exclude reference="WZq-P1-w6q"/>
-                    <exclude reference="uvg-dC-GsN"/>
+                    <exclude reference="BO8-We-StW"/>
+                    <exclude reference="PEe-pA-BgB"/>
                     <exclude reference="ELY-Ig-ZHK"/>
                     <exclude reference="xmV-dT-687"/>
+                    <exclude reference="WZq-P1-w6q"/>
+                    <exclude reference="uvg-dC-GsN"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -351,23 +351,23 @@
                     <include reference="IRT-WI-N5z"/>
                     <include reference="Z8S-6K-wui"/>
                     <include reference="c10-7s-qEU"/>
-                    <include reference="VVr-hl-gPG"/>
-                    <include reference="g00-V2-2nE"/>
-                    <exclude reference="kxh-fn-hUd"/>
                     <include reference="JI2-3w-d5D"/>
                     <include reference="jPe-Ov-kxR"/>
                     <include reference="pcm-89-nyv"/>
+                    <include reference="VVr-hl-gPG"/>
+                    <include reference="g00-V2-2nE"/>
+                    <exclude reference="kxh-fn-hUd"/>
                     <include reference="Ir9-Og-S35"/>
                     <include reference="haA-0k-GlV"/>
-                    <include reference="BO8-We-StW"/>
-                    <include reference="PEe-pA-BgB"/>
                     <include reference="HL5-bf-GLA"/>
                     <include reference="bCx-i6-wgE"/>
                     <include reference="y9e-Zl-E7p"/>
-                    <include reference="WZq-P1-w6q"/>
-                    <include reference="uvg-dC-GsN"/>
+                    <include reference="BO8-We-StW"/>
+                    <include reference="PEe-pA-BgB"/>
                     <include reference="ELY-Ig-ZHK"/>
                     <include reference="xmV-dT-687"/>
+                    <include reference="WZq-P1-w6q"/>
+                    <include reference="uvg-dC-GsN"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="153" y="317"/>
