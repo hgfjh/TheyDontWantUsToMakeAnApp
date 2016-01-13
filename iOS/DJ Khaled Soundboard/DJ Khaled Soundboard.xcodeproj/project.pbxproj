@@ -56,7 +56,6 @@
 		73CF90501C4344DD004FEEF5 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CF904E1C4344DD004FEEF5 /* View1.xib */; };
 		73CF90531C434633004FEEF5 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF90511C434633004FEEF5 /* View2.swift */; };
 		73CF90541C434633004FEEF5 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CF90521C434633004FEEF5 /* View2.xib */; };
-		73CF905C1C4353EC004FEEF5 /* AnotherOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73CF905B1C4353EC004FEEF5 /* AnotherOne.mp3 */; };
 		73CF905E1C435468004FEEF5 /* uSmart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73CF905D1C435468004FEEF5 /* uSmart.mp3 */; };
 		73CF90601C43548B004FEEF5 /* uLoyal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73CF905F1C43548B004FEEF5 /* uLoyal.mp3 */; };
 /* End PBXBuildFile section */
@@ -126,7 +125,6 @@
 		73CF904E1C4344DD004FEEF5 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
 		73CF90511C434633004FEEF5 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		73CF90521C434633004FEEF5 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
-		73CF905B1C4353EC004FEEF5 /* AnotherOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AnotherOne.mp3; sourceTree = "<group>"; };
 		73CF905D1C435468004FEEF5 /* uSmart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = uSmart.mp3; path = "../../../Audio Resources/uSmart.mp3"; sourceTree = "<group>"; };
 		73CF905F1C43548B004FEEF5 /* uLoyal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = uLoyal.mp3; path = "../../../Audio Resources/uLoyal.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,7 +206,6 @@
 				7383CF821C44127800E42B6C /* bowDown.mp3 */,
 				73CF905F1C43548B004FEEF5 /* uLoyal.mp3 */,
 				73CF905D1C435468004FEEF5 /* uSmart.mp3 */,
-				73CF905B1C4353EC004FEEF5 /* AnotherOne.mp3 */,
 				733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */,
 				733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */,
 				733FBFBD1C4174DB00FBFEE9 /* Main.storyboard */,
@@ -358,7 +355,6 @@
 				7383CF9B1C4412C700E42B6C /* justOpenIt.mp3 in Resources */,
 				73CF90541C434633004FEEF5 /* View2.xib in Resources */,
 				73CF90601C43548B004FEEF5 /* uLoyal.mp3 in Resources */,
-				73CF905C1C4353EC004FEEF5 /* AnotherOne.mp3 in Resources */,
 				7383CFA91C4412C700E42B6C /* knowThat.mp3 in Resources */,
 				7383CFA61C4412C700E42B6C /* iAppreciateU.mp3 in Resources */,
 				01A56F171C4605C800B3ADD6 /* Icon-40@2x.png in Resources */,
