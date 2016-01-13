@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		01A56EFF1C45799700B3ADD6 /* app-devil-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56EFD1C45799700B3ADD6 /* app-devil-logo.png */; };
 		01A56F001C45799700B3ADD6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56EFE1C45799700B3ADD6 /* button.png */; };
+		01A56F151C4605C800B3ADD6 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F0F1C4605C800B3ADD6 /* Icon-29@2x.png */; };
+		01A56F161C4605C800B3ADD6 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F101C4605C800B3ADD6 /* Icon-29@3x.png */; };
+		01A56F171C4605C800B3ADD6 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F111C4605C800B3ADD6 /* Icon-40@2x.png */; };
+		01A56F181C4605C800B3ADD6 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F121C4605C800B3ADD6 /* Icon-40@3x.png */; };
+		01A56F191C4605C800B3ADD6 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F131C4605C800B3ADD6 /* Icon-60@2x.png */; };
+		01A56F1A1C4605C800B3ADD6 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A56F141C4605C800B3ADD6 /* Icon-60@3x.png */; };
 		733FBFBA1C4174DB00FBFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */; };
 		733FBFBC1C4174DB00FBFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733FBFBB1C4174DB00FBFEE9 /* ViewController.swift */; };
 		733FBFBF1C4174DB00FBFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733FBFBD1C4174DB00FBFEE9 /* Main.storyboard */; };
@@ -68,6 +74,12 @@
 /* Begin PBXFileReference section */
 		01A56EFD1C45799700B3ADD6 /* app-devil-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-devil-logo.png"; path = "../../../graphics/app-devil-logo.png"; sourceTree = "<group>"; };
 		01A56EFE1C45799700B3ADD6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../graphics/button.png; sourceTree = "<group>"; };
+		01A56F0F1C4605C800B3ADD6 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "../../../graphics/Icon-29@2x.png"; sourceTree = "<group>"; };
+		01A56F101C4605C800B3ADD6 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@3x.png"; path = "../../../graphics/Icon-29@3x.png"; sourceTree = "<group>"; };
+		01A56F111C4605C800B3ADD6 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "../../../graphics/Icon-40@2x.png"; sourceTree = "<group>"; };
+		01A56F121C4605C800B3ADD6 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "../../../graphics/Icon-40@3x.png"; sourceTree = "<group>"; };
+		01A56F131C4605C800B3ADD6 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../graphics/Icon-60@2x.png"; sourceTree = "<group>"; };
+		01A56F141C4605C800B3ADD6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "../../../graphics/Icon-60@3x.png"; sourceTree = "<group>"; };
 		01F2442B1C421EAA00C7C354 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		733FBFB61C4174DB00FBFEE9 /* DJ Khaled Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Khaled Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733FBFB91C4174DB00FBFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +171,12 @@
 		733FBFB81C4174DB00FBFEE9 /* DJ Khaled Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				01A56F0F1C4605C800B3ADD6 /* Icon-29@2x.png */,
+				01A56F101C4605C800B3ADD6 /* Icon-29@3x.png */,
+				01A56F111C4605C800B3ADD6 /* Icon-40@2x.png */,
+				01A56F121C4605C800B3ADD6 /* Icon-40@3x.png */,
+				01A56F131C4605C800B3ADD6 /* Icon-60@2x.png */,
+				01A56F141C4605C800B3ADD6 /* Icon-60@3x.png */,
 				01A56EFD1C45799700B3ADD6 /* app-devil-logo.png */,
 				01A56EFE1C45799700B3ADD6 /* button.png */,
 				7383CFAA1C44131500E42B6C /* Lion.mp3 */,
@@ -307,6 +325,7 @@
 				7383CFA51C4412C700E42B6C /* dontEverPlayYourself.mp3 in Resources */,
 				7383CF851C44127800E42B6C /* bowDown.mp3 in Resources */,
 				7383CF9A1C4412C700E42B6C /* howsBusiness.mp3 in Resources */,
+				01A56F1A1C4605C800B3ADD6 /* Icon-60@3x.png in Resources */,
 				7383CFB11C44131500E42B6C /* neverGiveUp.mp3 in Resources */,
 				7383CFB51C44131500E42B6C /* WeTheBest.mp3 in Resources */,
 				73CF905E1C435468004FEEF5 /* uSmart.mp3 in Resources */,
@@ -316,19 +335,23 @@
 				7383CF9D1C4412C700E42B6C /* lookInMyEyes.mp3 in Resources */,
 				7383CF841C44127800E42B6C /* Bamboo.mp3 in Resources */,
 				7383CF9F1C4412C700E42B6C /* Pathway.mp3 in Resources */,
+				01A56F191C4605C800B3ADD6 /* Icon-60@2x.png in Resources */,
 				7383CFA21C4412C700E42B6C /* uPlayedYourself.mp3 in Resources */,
 				7383CFB01C44131500E42B6C /* Lion.mp3 in Resources */,
 				733FBFC41C4174DB00FBFEE9 /* LaunchScreen.storyboard in Resources */,
 				7383CFBD1C44225300E42B6C /* View4.xib in Resources */,
 				7383CFA41C4412C700E42B6C /* buyYourMamaAHouse.mp3 in Resources */,
+				01A56F181C4605C800B3ADD6 /* Icon-40@3x.png in Resources */,
 				7383CF991C4412C700E42B6C /* eggWhites.mp3 in Resources */,
 				7383CFB91C4421E300E42B6C /* View3.xib in Resources */,
 				7383CFA81C4412C700E42B6C /* justKnow.mp3 in Resources */,
 				7383CF981C4412C700E42B6C /* clothTalk.mp3 in Resources */,
 				733FBFC11C4174DB00FBFEE9 /* Assets.xcassets in Resources */,
 				7383CFB31C44131500E42B6C /* Thumbs.db in Resources */,
+				01A56F161C4605C800B3ADD6 /* Icon-29@3x.png in Resources */,
 				7383CF9C1C4412C700E42B6C /* learningIsCool.mp3 in Resources */,
 				01A56EFF1C45799700B3ADD6 /* app-devil-logo.png in Resources */,
+				01A56F151C4605C800B3ADD6 /* Icon-29@2x.png in Resources */,
 				7383CF831C44127800E42B6C /* anotherCrab.mp3 in Resources */,
 				733FBFBF1C4174DB00FBFEE9 /* Main.storyboard in Resources */,
 				7383CFA11C4412C700E42B6C /* Roadblocks.mp3 in Resources */,
@@ -338,6 +361,7 @@
 				73CF905C1C4353EC004FEEF5 /* AnotherOne.mp3 in Resources */,
 				7383CFA91C4412C700E42B6C /* knowThat.mp3 in Resources */,
 				7383CFA61C4412C700E42B6C /* iAppreciateU.mp3 in Resources */,
+				01A56F171C4605C800B3ADD6 /* Icon-40@2x.png in Resources */,
 				01A56F001C45799700B3ADD6 /* button.png in Resources */,
 				7383CFA01C4412C700E42B6C /* Pillows.mp3 in Resources */,
 			);
@@ -489,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DJ Khaled Soundboard/Info.plist";
@@ -504,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "DJ Khaled Soundboard/Info.plist";
