@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -15,53 +15,66 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="app-devil-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="CFu-gF-RWe">
-                    <rect key="frame" x="202" y="97" width="200" height="125"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="200" id="ukj-uc-XI2"/>
-                        <constraint firstAttribute="height" constant="125" id="yrP-Oi-G5B"/>
-                    </constraints>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="CREATED BY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNx-bc-hV6">
-                    <rect key="frame" x="228" y="247" width="144" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Suhas Amireddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afe-ph-bg2">
-                    <rect key="frame" x="238" y="286" width="125" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Olu Olorode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvH-oA-Aqi">
-                    <rect key="frame" x="254" y="315" width="92" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rafi Mueen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPK-ff-IcG">
-                    <rect key="frame" x="257" y="344" width="86" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="© 2016 AppDevil Developers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-yQ-80U">
                     <rect key="frame" x="217" y="552" width="167" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="app-devil-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="CFu-gF-RWe">
+                    <rect key="frame" x="257" y="494" width="85" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="85" id="ukj-uc-XI2"/>
+                        <constraint firstAttribute="height" constant="50" id="yrP-Oi-G5B"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="CREATED BY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNx-bc-hV6">
+                    <rect key="frame" x="227" y="199" width="144" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Suhas Amireddy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afe-ph-bg2">
+                    <rect key="frame" x="237" y="238" width="125" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Olu Olorode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvH-oA-Aqi">
+                    <rect key="frame" x="253" y="267" width="92" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rafi Mueen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPK-ff-IcG">
+                    <rect key="frame" x="256" y="296" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEw-wz-iI8">
+                    <rect key="frame" x="255" y="42" width="88" height="135"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="88" id="9IN-42-tUs"/>
+                        <constraint firstAttribute="height" constant="135" id="UDk-aE-HWl"/>
+                    </constraints>
+                    <state key="normal" image="khaled-face.png"/>
+                    <connections>
+                        <action selector="KhaledRandomSound:" destination="-1" eventType="touchUpInside" id="TBU-s8-QKc"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="VvH-oA-Aqi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3bs-vg-TAF"/>
                 <constraint firstItem="8bp-yQ-80U" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6vv-mh-opK"/>
                 <constraint firstItem="sPK-ff-IcG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7wN-xs-RE3"/>
+                <constraint firstItem="SEw-wz-iI8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EGY-w0-dkA"/>
                 <constraint firstItem="afe-ph-bg2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Eiz-sz-ud7"/>
                 <constraint firstItem="CFu-gF-RWe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PUE-7e-qvq"/>
                 <constraint firstAttribute="bottomMargin" secondItem="8bp-yQ-80U" secondAttribute="bottom" constant="10" id="jHD-Xy-5mD"/>
                 <constraint firstItem="ZNx-bc-hV6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pjj-k0-uoL"/>
+                <constraint firstItem="8bp-yQ-80U" firstAttribute="top" secondItem="CFu-gF-RWe" secondAttribute="bottom" constant="10" id="xWW-Gs-xEk"/>
             </constraints>
         </view>
         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="OVY-Va-arH">
@@ -73,5 +86,6 @@
     </objects>
     <resources>
         <image name="app-devil-logo.png" width="1787" height="1172"/>
+        <image name="khaled-face.png" width="883" height="1354"/>
     </resources>
 </document>
