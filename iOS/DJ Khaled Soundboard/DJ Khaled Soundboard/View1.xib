@@ -3,7 +3,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View1" customModule="DJ_Khaled_Soundboard" customModuleProvider="target">
@@ -251,7 +250,7 @@
                         <action selector="JustOpenIt:" destination="-1" eventType="touchUpInside" id="deN-Ky-uct"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Swipe for another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-PB-D3R">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe for another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-PB-D3R">
                     <rect key="frame" x="216" y="571" width="169" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -275,8 +274,8 @@
                 <constraint firstItem="u8m-hf-Ao1" firstAttribute="height" secondItem="WFl-MR-omC" secondAttribute="height" id="AF2-Bj-4AQ"/>
                 <constraint firstItem="MZL-pJ-lHL" firstAttribute="centerY" secondItem="FlW-le-hSx" secondAttribute="centerY" id="BO8-We-StW"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="width" secondItem="WFl-MR-omC" secondAttribute="width" id="BVe-ee-tDM"/>
+                <constraint firstItem="fEN-PB-D3R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DUS-LL-ClF"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DtZ-Xy-kf4"/>
-                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="fEN-PB-D3R" secondAttribute="bottom" priority="250" constant="10" id="ELY-Ig-ZHK"/>
                 <constraint firstItem="XST-x2-jQB" firstAttribute="centerY" secondItem="boh-Q6-9Od" secondAttribute="centerY" constant="100" id="HL5-bf-GLA"/>
                 <constraint firstItem="E3b-6p-tbh" firstAttribute="centerY" secondItem="6yi-KG-3EB" secondAttribute="centerY" id="IRT-WI-N5z"/>
                 <constraint firstItem="mqT-lZ-u9a" firstAttribute="leading" secondItem="E3b-6p-tbh" secondAttribute="trailing" constant="10" id="Ir9-Og-S35"/>
@@ -306,6 +305,7 @@
                 <constraint firstItem="XST-x2-jQB" firstAttribute="height" secondItem="WFl-MR-omC" secondAttribute="height" id="krI-Wz-LOe"/>
                 <constraint firstItem="u8m-hf-Ao1" firstAttribute="leading" secondItem="WFl-MR-omC" secondAttribute="trailing" constant="10" id="kxh-fn-hUd"/>
                 <constraint firstItem="6yi-KG-3EB" firstAttribute="width" secondItem="WFl-MR-omC" secondAttribute="width" id="nNH-3K-stv"/>
+                <constraint firstAttribute="bottom" secondItem="fEN-PB-D3R" secondAttribute="bottom" constant="10" id="nfy-aA-Ipp"/>
                 <constraint firstItem="qE8-0J-rcQ" firstAttribute="width" secondItem="WFl-MR-omC" secondAttribute="width" id="nhz-s1-cux"/>
                 <constraint firstItem="boh-Q6-9Od" firstAttribute="leading" secondItem="FlW-le-hSx" secondAttribute="trailing" constant="10" id="pcm-89-nyv"/>
                 <constraint firstItem="wc4-Wz-Esm" firstAttribute="width" secondItem="WFl-MR-omC" secondAttribute="width" id="tFS-6O-DmR"/>
@@ -313,7 +313,6 @@
                 <constraint firstItem="qE8-0J-rcQ" firstAttribute="leading" secondItem="XST-x2-jQB" secondAttribute="trailing" constant="10" id="uvg-dC-GsN"/>
                 <constraint firstItem="5m7-qe-3BA" firstAttribute="centerY" secondItem="WFl-MR-omC" secondAttribute="centerY" id="vNK-sp-Dza"/>
                 <constraint firstItem="boh-Q6-9Od" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vyh-Pe-YHh"/>
-                <constraint firstItem="fEN-PB-D3R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xmV-dT-687"/>
                 <constraint firstItem="XST-x2-jQB" firstAttribute="leading" secondItem="wc4-Wz-Esm" secondAttribute="trailing" constant="10" id="y9e-Zl-E7p"/>
             </constraints>
             <variation key="default">
@@ -337,8 +336,6 @@
                     <exclude reference="y9e-Zl-E7p"/>
                     <exclude reference="BO8-We-StW"/>
                     <exclude reference="PEe-pA-BgB"/>
-                    <exclude reference="ELY-Ig-ZHK"/>
-                    <exclude reference="xmV-dT-687"/>
                     <exclude reference="WZq-P1-w6q"/>
                     <exclude reference="uvg-dC-GsN"/>
                 </mask>
@@ -364,8 +361,6 @@
                     <include reference="y9e-Zl-E7p"/>
                     <include reference="BO8-We-StW"/>
                     <include reference="PEe-pA-BgB"/>
-                    <include reference="ELY-Ig-ZHK"/>
-                    <include reference="xmV-dT-687"/>
                     <include reference="WZq-P1-w6q"/>
                     <include reference="uvg-dC-GsN"/>
                 </mask>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="View2" customModule="DJ_Khaled_Soundboard" customModuleProvider="target">
@@ -184,15 +183,15 @@
                         <action selector="LearningIsCool:" destination="-1" eventType="touchUpInside" id="hvO-iZ-Fka"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="...and another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6X4-GQ-Y6B">
-                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="...and another one..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nu-je-yzW">
+                    <rect key="frame" x="222" y="558" width="157" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                         <rect key="frame" x="122" y="438" width="157" height="21"/>
                     </variation>
-                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                         <rect key="frame" x="124" y="438" width="153" height="21"/>
                     </variation>
                 </label>
@@ -206,11 +205,9 @@
                 <constraint firstItem="Y10-ux-sih" firstAttribute="width" secondItem="RHN-cN-0Ft" secondAttribute="width" id="5lk-qB-oiI"/>
                 <constraint firstItem="rC3-Z2-YZP" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="6P9-WL-dLS"/>
                 <constraint firstItem="e48-AL-Leo" firstAttribute="centerY" secondItem="71v-ln-zj2" secondAttribute="centerY" id="8Q2-bQ-ppl"/>
-                <constraint firstItem="6X4-GQ-Y6B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9jK-U3-uyt"/>
                 <constraint firstItem="QPF-2p-cPg" firstAttribute="centerY" secondItem="vvV-dF-En4" secondAttribute="centerY" id="AuA-ZA-ffy"/>
                 <constraint firstItem="ciV-vP-OCm" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="Bo4-nm-HLA"/>
                 <constraint firstItem="G4a-RJ-dNF" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="CcE-3e-Gl3"/>
-                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="6X4-GQ-Y6B" secondAttribute="bottom" constant="10" id="D1C-iL-MTi"/>
                 <constraint firstItem="LS3-NU-QfB" firstAttribute="leading" secondItem="ciV-vP-OCm" secondAttribute="trailing" constant="10" id="D8e-mg-An5"/>
                 <constraint firstItem="G4a-RJ-dNF" firstAttribute="centerY" secondItem="J7x-9a-WCr" secondAttribute="centerY" id="DH5-eX-fQG"/>
                 <constraint firstItem="4h2-Aj-rJy" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="DXk-p2-mPx"/>
@@ -220,6 +217,7 @@
                 <constraint firstItem="e48-AL-Leo" firstAttribute="width" secondItem="RHN-cN-0Ft" secondAttribute="width" id="HgM-Yg-bEY"/>
                 <constraint firstItem="e48-AL-Leo" firstAttribute="leading" secondItem="71v-ln-zj2" secondAttribute="trailing" constant="10" id="I7R-Qz-C4P"/>
                 <constraint firstItem="vvV-dF-En4" firstAttribute="width" secondItem="RHN-cN-0Ft" secondAttribute="width" id="KZl-fq-GlU"/>
+                <constraint firstAttribute="bottom" secondItem="0nu-je-yzW" secondAttribute="bottom" constant="10" id="KuY-Kt-UzK"/>
                 <constraint firstItem="G4a-RJ-dNF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Lgz-Fm-EgG"/>
                 <constraint firstItem="QPF-2p-cPg" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="MgQ-qK-bCi"/>
                 <constraint firstItem="Y10-ux-sih" firstAttribute="leading" secondItem="vvV-dF-En4" secondAttribute="trailing" constant="10" id="NhQ-7c-50N"/>
@@ -239,6 +237,7 @@
                 <constraint firstItem="G4a-RJ-dNF" firstAttribute="leading" secondItem="J7x-9a-WCr" secondAttribute="trailing" constant="10" id="bm1-0q-k9m"/>
                 <constraint firstItem="e48-AL-Leo" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="dEE-ZP-QUD"/>
                 <constraint firstItem="LS3-NU-QfB" firstAttribute="centerY" secondItem="RHN-cN-0Ft" secondAttribute="centerY" id="dxT-Qy-WLC"/>
+                <constraint firstItem="0nu-je-yzW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="e82-h8-CrA"/>
                 <constraint firstItem="LS3-NU-QfB" firstAttribute="width" secondItem="RHN-cN-0Ft" secondAttribute="width" id="gIJ-nX-SJQ"/>
                 <constraint firstItem="Y10-ux-sih" firstAttribute="centerY" secondItem="G4a-RJ-dNF" secondAttribute="centerY" constant="100" id="hHs-hZ-lTl"/>
                 <constraint firstItem="ciV-vP-OCm" firstAttribute="width" secondItem="RHN-cN-0Ft" secondAttribute="width" id="odg-cS-92O"/>
@@ -248,27 +247,9 @@
                 <constraint firstItem="Y10-ux-sih" firstAttribute="height" secondItem="RHN-cN-0Ft" secondAttribute="height" id="u28-UQ-tGE"/>
                 <constraint firstItem="e48-AL-Leo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wmX-bj-8PC"/>
             </constraints>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="6X4-GQ-Y6B"/>
-                </mask>
-                <mask key="constraints">
-                    <exclude reference="9jK-U3-uyt"/>
-                    <exclude reference="D1C-iL-MTi"/>
-                </mask>
-            </variation>
-            <variation key="widthClass=compact">
-                <mask key="subviews">
-                    <include reference="6X4-GQ-Y6B"/>
-                </mask>
-                <mask key="constraints">
-                    <include reference="9jK-U3-uyt"/>
-                    <include reference="D1C-iL-MTi"/>
-                </mask>
-            </variation>
         </view>
     </objects>
     <resources>
-        <image name="button.png" width="859" height="885"/>
+        <image name="button.png" width="1150" height="1150"/>
     </resources>
 </document>
