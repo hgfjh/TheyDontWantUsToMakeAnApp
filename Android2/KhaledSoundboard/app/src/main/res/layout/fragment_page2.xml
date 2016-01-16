@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="theydontwantustomakeanapp.djkhaledsoundboard.Page2"
+    android:background="@color/DarkSlateGray">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:columnCount="3">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:onClick="sendjustopenit"
+            android:text = "Just Open It"
+            android:textSize="11dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:onClick="sendknowthat"
+            android:text = "Know That"
+            android:textSize="12dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="7dp"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:onClick="sendlearningiscool"
+            android:text = "Learning is Cool"
+            android:textSize="10dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendlion"
+            android:text = "Lion"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendlookinmyeyes"
+            android:text = "My Eyes"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendmamahouse"
+            android:text = "Houses"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendnevergiveup"
+            android:text = "Never Give Up"
+            android:textSize= "10dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendnolunch"
+            android:text = "No Lunch"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendpathway"
+            android:text = "Pathway"
+            android:textSize="12dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendpillows"
+            android:text = "Pillows"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="sendroadblocks"
+            android:text = "Roadblocks"
+            android:textSize="11dp"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="senduagenius"
+            android:text = "You a Genius"
+            android:textSize="11dp"
+            />
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe for another one"
+        android:paddingBottom="20dp"
+        android:textSize="17dp"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
