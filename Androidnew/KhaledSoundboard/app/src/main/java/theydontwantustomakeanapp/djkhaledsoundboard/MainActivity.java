@@ -17,18 +17,21 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class MainActivity extends FragmentActivity
 implements Page1.OnFragmentInteractionListener,Page2.OnFragmentInteractionListener,
 Page3.OnFragmentInteractionListener,InfoPage.OnFragmentInteractionListener{
-    final MediaPlayer anotherone[]=new MediaPlayer[5];
+     final MediaPlayer anotherone[]=new MediaPlayer[5];
      final MediaPlayer anothercrab[]= new MediaPlayer[5];
      final MediaPlayer appreciate[]= new MediaPlayer[5];
      final MediaPlayer bamboo[]=new MediaPlayer[5];
      final MediaPlayer bowdown[]= new MediaPlayer[5];
-    final MediaPlayer changedalot[]= new MediaPlayer[5];
-    final MediaPlayer clothtalk[]=new MediaPlayer[5];
+     final MediaPlayer changedalot[]= new MediaPlayer[5];
+     final MediaPlayer clothtalk[]=new MediaPlayer[5];
      final MediaPlayer dontplayyourself[]= new MediaPlayer[5];
-    final MediaPlayer  eggwhites[]= new MediaPlayer[5];
+     final MediaPlayer eggwhites[]= new MediaPlayer[5];
      final MediaPlayer handlesuccess[]=new MediaPlayer[5];
      final MediaPlayer howsbusiness[]= new MediaPlayer[5];
      final MediaPlayer justknow[]= new MediaPlayer[5];
@@ -56,6 +59,9 @@ Page3.OnFragmentInteractionListener,InfoPage.OnFragmentInteractionListener{
         ViewPager vp = (ViewPager) findViewById(R.id.pager);
         FragmentManager fm = getSupportFragmentManager();
         vp.setAdapter(new adapter(fm));
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         for(int i =0; i <5;i++){
             anotherone[i] = MediaPlayer.create(this,R.raw.anotherone);
             anothercrab[i] = MediaPlayer.create(this,R.raw.anothercrab);
@@ -100,7 +106,6 @@ Page3.OnFragmentInteractionListener,InfoPage.OnFragmentInteractionListener{
     //this method needs to implemented by default it does nothing
 
     public void onFragmentInteraction(Uri uri){}
-
     public void sendanotherone(View view){
         playsound(anotherone);
     }
@@ -153,7 +158,6 @@ Page3.OnFragmentInteractionListener,InfoPage.OnFragmentInteractionListener{
     public void senduplayedyourself(View view){playsound(uplayedyourself);}
     public void sendusmart(View view){playsound(usmart);}
     public void sendwethebest(View view){playsound(wethebest);}
-
     class adapter extends FragmentPagerAdapter{
         public adapter(FragmentManager fm){super(fm);}
         @Override
